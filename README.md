@@ -1,8 +1,9 @@
 # previsao-de-nota-regressao-e-nlp
 
 ## Descrição
-Tarefas de previsão da nota IMDB de filmes baseado em algoritmos de aprendizagem de máquina de regressão, além de algoritmos de classificação de gênero do filme com uso de processamento de linguagem natural (NLP).
+Tarefas de previsão da nota IMDB de filmes baseado em algoritmos de aprendizagem de máquina de regressão, além de algoritmos de classificação de gênero do filme com uso de processamento de linguagem natural (NLP). 
 
+A previsão da nota levou em consideração a seleção de hiperparâmetros com Gridsearch e comparação e avaliação de desempenho de 4 modelos base(Regressão linear, polinomial, XGBoost e Random Forest). Já para a classificação dos gêneros, foi utilizado uma MLP(Multilayer Perceptron) de duas camadas ocultas, implementada com PyTorch, além de embeddings feitos com Word2Vec(Gensim). 
 ## Pré-requisitos
 
 * [Python (versão 3.8 ou superior)](https://www.python.org/downloads/)
